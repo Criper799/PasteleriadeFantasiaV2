@@ -2,7 +2,7 @@
 
 DROP DATABASE IF EXISTS pasteleria_fantasia;
 
-CREATE DATABASE pasteleria_fantasia
+CREATE DATABASE pasteleria_fantasia;
 
 USE pasteleria_fantasia;
 
@@ -81,7 +81,7 @@ INSERT INTO productos
 (nombre, categoria, precio, imagen, descripcion, ingredientes, alergenos, porciones, es_popular, estado)
 VALUES
 
-('Torta de Chocolate Supremo', 'tortas', 15000, '/img/pastel.jpg',
+('Torta de Chocolate Supremo', 'tortas', 150, '/img/pastel.jpg',
 'Una deliciosa torta húmeda y esponjosa elaborada con cacao puro.',
 'Cacao puro, crema de leche, azúcar, harina, vainilla',
 'Gluten, Lácteos',
@@ -89,7 +89,7 @@ VALUES
 1,
 1),
 
-('Pastel de Moca Imperial', 'tortas', 17000, '/img/pasteles.jpg',
+('Pastel de Moca Imperial', 'tortas', 170, '/img/pasteles.jpg',
 'Combinación perfecta entre café espresso y chocolate.',
 'Café espresso, cacao, crema batida',
 'Gluten, Lácteos',
@@ -97,7 +97,7 @@ VALUES
 1,
 1),
 
-('Alfajores de Dulce de Leche', 'dulces', 900, '/img/alfafor.jpg',
+('Alfajores de Dulce de Leche', 'dulces', 90, '/img/alfafor.jpg',
 'Alfajores rellenos con dulce de leche artesanal.',
 'Maicena, dulce de leche, mantequilla',
 'Gluten, Lácteos, Huevo',
@@ -105,7 +105,7 @@ VALUES
 1,
 1),
 
-('Pastel Artesanal de Frutilla', 'tortas', 16500, '/img/pas.jpg',
+('Pastel Artesanal de Frutilla', 'tortas', 165, '/img/pas.jpg',
 'Pastel artesanal con crema pastelera y frutillas.',
 'Frutillas, crema pastelera, merengue',
 'Gluten, Lácteos, Huevo',
@@ -113,7 +113,7 @@ VALUES
 0,
 1),
 
-('Dulces Caseros Mixtos', 'dulces', 6500, '/img/dul.jpg',
+('Dulces Caseros Mixtos', 'dulces', 65, '/img/dul.jpg',
 'Selección de dulces variados.',
 'Galletas, alfajores, brownies',
 'Gluten, Lácteos, Huevo',
@@ -121,7 +121,7 @@ VALUES
 0,
 1),
 
-('Variedad de Sabores Macarons', 'dulces', 7200, '/img/var.jpg',
+('Variedad de Sabores Macarons', 'dulces', 72, '/img/var.jpg',
 'Macarons franceses tradicionales.',
 'Harina de almendra, claras de huevo',
 'Almendras, Huevo, Lácteos',
@@ -129,7 +129,7 @@ VALUES
 0,
 1),
 
-('Red Velvet de Ensueño', 'tortas', 18500,
+('Red Velvet de Ensueño', 'tortas', 185,
 'https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=600',
 'Bizcocho Red Velvet con queso crema.',
 'Buttermilk, cacao, queso crema',
@@ -138,7 +138,7 @@ VALUES
 1,
 1),
 
-('Cupcakes de Arcoíris (Pack x 4)', 'cupcakes', 4800,
+('Cupcakes de Arcoíris (Pack x 4)', 'cupcakes', 48,
 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=600',
 'Cupcakes decorados con buttercream multicolor.',
 'Vainilla, buttercream, chispas',
@@ -147,7 +147,7 @@ VALUES
 0,
 1),
 
-('Donas Glaseadas de Fantasía (Pack x 6)', 'especiales', 5400,
+('Donas Glaseadas de Fantasía (Pack x 6)', 'especiales', 54,
 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
 'Donas con glaseados variados.',
 'Masa leudada, chocolate, frutilla',
